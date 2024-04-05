@@ -1,0 +1,14 @@
+type Query {
+  // Define your queries here
+}
+
+type Mutation {
+  // Define mutations for user management, such as createUser, signIn, etc.
+}
+
+type User {
+  id: ID!
+  email: String!
+  name: String
+  // Other fields...
+}
